@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charshet=utf-8");
-		response.getWriter().write("���maven");
+		response.getWriter().write("今天开始了���maven的学习了");
 	}
 
 	/**
